@@ -23,3 +23,22 @@ print(numero_real, numero_inteiro)
 #type 
 
 print("O tipo da variavel é: ", type(numero_real))
+
+#operadores 
+
+numero1 = 2
+numero2 = 3
+
+# multiplicacao
+
+print("2 * 3 = ", numero1 * numero2)
+
+#divisao 
+
+print("2 / 3  = ", numero1 / numero2)
+#Para converter para inteiro
+print(int(numero1/numero2))
+
+#subtracao
+
+print("2 - 3 =  ", numero1 - numero2)
