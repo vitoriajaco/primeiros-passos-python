@@ -42,3 +42,9 @@ print(int(numero1/numero2))
 #subtracao
 
 print("2 - 3 =  ", numero1 - numero2)
+
+
+# Utilizado para calcular o resto da divisão inteira entre dois números. 
+# Ele é útil em diversas situações, como determinar se um número 
+# é par ou ímpar, trabalhar com ciclos ou intervalos, e muito mais.
+print("modulo ", modulo)
