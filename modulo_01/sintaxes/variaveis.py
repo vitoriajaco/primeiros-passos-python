@@ -1,3 +1,6 @@
+import modulo
+
+
 nome_completo = "Maria Clementina"
 
 idade = 24
