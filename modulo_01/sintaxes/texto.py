@@ -24,13 +24,39 @@ sobrenome = "Santos"
 a = nome.find("i")
 print(a)
 
+#Divide uma string em uma lista de substrings.
+# Você pode passar um argumento para .split() dizendo qual caractere usar como separador:
+b = "Vini Junior"
+b = b.split(" ")
+print(b)
+
+#Nesse caso ele vai apagar todos os 'as' do final caso queira remover so um é diferente
+c = "Virginia Fonsecaa"
+c = c.rstrip("a")
+print(c)
+
+d = "Virginia Fonsecaa"
+if d.endswith("a"):
+    d = d[:-1]
+print(d)
+
+d.startswith("V")
+print(d.startswith("V"))
+
 #Para substituir uma letra por outra
 sobrenome = sobrenome.replace("o", "e")
 print(sobrenome)
 
+sobrenome = "-".join(sobrenome)
+
 telefone = "(87)99991534"
 telefone = telefone.replace("(","",).replace(")","",)
 print(telefone)
+
+#Verifica se tem na string
+print("99" in telefone)
+
+print("abc" not in telefone)
 #Formatacao
 
 print("Meu nome é", "Maria", "Sebastiana")
